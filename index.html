@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shaders</title>
+    <style>
+        *{
+            margin: 0;
+            overflow: hidden;
+        }
+        .btn{
+            position: absolute;
+            border: 4px solid white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .btn:hover{
+            background-color: white;
+            border: 4px solid rgb(80, 80, 80);
+        }
+        .change{
+            top: 20px;
+            left: 20px;
+        }
+        .change2{
+            top: 20px;
+            left: 90px;
+        }
+        .change3{
+            top: 20px;
+            left: 160px;
+        }
+    </style>
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div class="change btn"></div>
+    <div class="change2 btn"></div>
+    <div class="change3 btn"></div>
+    <script src="./three.min.js"></script>
+    <script src="./script1.js"></script>
+    <script src="./p5.min.js"></script>
+    <script src="./p5.sound.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>
